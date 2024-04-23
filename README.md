@@ -37,8 +37,11 @@ o	Metodi:
 	PUT /books/{id}: Aggiorna i dettagli di un libro esistente.
 	DELETE /books/{id}: Rimuove un libro dall'elenco.
 	POST /books/{id}/lend: Gestisce il prestito di un libro.
+
+
+https://elements.getpostman.com/redirect?entityId=33205443-a201eced-e56f-4e5f-9608-c4cdc8cce599&entityType=collection
 	POST /books/{id}/return: Gestisce il ritorno di un libro prestato.
-4.	Implementazione della logica di business nei metodi di BookService.
-5.	Configurazione di Spring per gestire le dipendenze e le richieste HTTP.
-6.	Test delle operazioni CRUD e della logica di business con JUnit e MockMvc.
+5.	Implementazione della logica di business nei metodi di BookService.
+6.	Configurazione di Spring per gestire le dipendenze e le richieste HTTP.
+7.	Test delle operazioni CRUD e della logica di business con JUnit e MockMvc.
 Questa traccia fornisce un'idea generale di come progettare un'applicazione CRUD con Spring e includere la logica di business per il controllo del prestito dei libri. Puoi aggiungere ulteriori dettagli e funzionalità in base alle esigenze specifiche del progetto.
