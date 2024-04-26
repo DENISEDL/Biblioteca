@@ -42,7 +42,7 @@ Creare un'applicazione Spring per gestire una lista di libri con operazioni CRUD
 Implementazione della logica di business nei metodi di BookService.<br>
 Configurazione di Spring per gestire le dipendenze e le richieste HTTP.<br>
 Test delle operazioni CRUD e della logica di business con JUnit e MockMvc.<br>
-Questa traccia fornisce un'idea generale di come progettare un'applicazione CRUD con Spring e includere la logica di business per il controllo del prestito dei libri. Puoi aggiungere ulteriori dettagli e funzionalità in base alle esigenze specifiche del progetto
+Questa traccia fornisce un'idea generale di come progettare un'applicazione CRUD con Spring e includere la logica di business per il controllo del prestito dei libri. Puoi aggiungere ulteriori dettagli e funzionalità in base alle esigenze specifiche del progetto<br>
 
 5.	Implementazione della logica di business nei metodi di BookService.<br>
 6.	Configurazione di Spring per gestire le dipendenze e le richieste HTTP.<br>
