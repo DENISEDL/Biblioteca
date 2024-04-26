@@ -21,23 +21,23 @@ Creare un'applicazione Spring per gestire una lista di libri con operazioni CRUD
 # Classe BookService:<br>
 - Interfaccia contenente i metodi per la logica di business sui libri.<br>
 - Metodi:<br>
- List getAllBooks(): Restituisce l'elenco completo dei libri.<br>
- Book getBookById(int id): Restituisce un libro specifico per ID.<br>
- Book addBook(Book book): Aggiunge un nuovo libro.<br>
- Book updateBook(int id, Book book): Aggiorna i dettagli di un libro.<br>
- Book deleteBook(int id): Rimuove un libro dall'elenco.<br>
- Book lendBook(int id): Gestisce il prestito di un libro.<br>
- Book returnBook(int id): Gestisce il ritorno di un libro prestato.<br>
+- List getAllBooks(): Restituisce l'elenco completo dei libri.<br>
+- Book getBookById(int id): Restituisce un libro specifico per ID.<br>
+- Book addBook(Book book): Aggiunge un nuovo libro.<br>
+- Book updateBook(int id, Book book): Aggiorna i dettagli di un libro.<br>
+- Book deleteBook(int id): Rimuove un libro dall'elenco.<br>
+- Book lendBook(int id): Gestisce il prestito di un libro.<br>
+- Book returnBook(int id): Gestisce il ritorno di un libro prestato.<br>
 # Classe BookController:<br>
 - Controller per gestire le richieste HTTP relative ai libri.<br>
 - Metodi:<br>
- GET /books/readAll: Restituisce l'elenco completo dei libri.<br>
- GET /books/readSingle/{id}: Restituisce i dettagli di un libro specifico.<br>
- POST /books/create: Aggiunge un nuovo libro.<br>
- PUT /books/update/{id}: Aggiorna i dettagli di un libro esistente.<br>
- DELETE /books/delete/{id}: Rimuove un libro dall'elenco.<br>
- PUT /books/lend/{id}: Gestisce il prestito di un libro.<br>
- PUT /books/return/{id}: Gestisce il ritorno di un libro prestato.<br>
+- GET /books/readAll: Restituisce l'elenco completo dei libri.<br>
+- GET /books/readSingle/{id}: Restituisce i dettagli di un libro specifico.<br>
+- POST /books/create: Aggiunge un nuovo libro.<br>
+- PUT /books/update/{id}: Aggiorna i dettagli di un libro esistente.<br>
+- DELETE /books/delete/{id}: Rimuove un libro dall'elenco.<br>
+- PUT /books/lend/{id}: Gestisce il prestito di un libro.<br>
+- PUT /books/return/{id}: Gestisce il ritorno di un libro prestato.<br>
 #
 Implementazione della logica di business nei metodi di BookService.<br>
 Configurazione di Spring per gestire le dipendenze e le richieste HTTP.<br>
